@@ -1,0 +1,69 @@
+.following {
+  padding-top: 108px;
+  padding-bottom: 62px;
+  height: 100%;
+  background: url("../images/following-dog.png"), url("../images/following-bg.png");
+  background-repeat: no-repeat;
+  background-size: 613px 481px , 100% 308px;
+  background-position: calc(50% + 390px) calc(50% - 21px) , center;
+}
+
+.following__inner {
+  width: 550px;
+  padding-top: 90px;
+  padding-left: 249px;
+}
+
+.following__title {
+  width: 494px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.following__form-box {
+  display: flex;
+  width: 560px;
+  margin-top: 32px;
+  padding-bottom: 90px;
+}
+
+.following__input {
+  width: 335px;
+  height: 50px;
+  margin: 0;
+  margin-right: 21px;
+  padding: 0;
+  padding-left: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+}
+
+.following__btn {
+  width: 188px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  padding-top: 1px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #333333;
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}

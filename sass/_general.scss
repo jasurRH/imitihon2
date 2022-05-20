@@ -1,0 +1,27 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*,*::after,*::before{
+  box-sizing: border-box;
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Futura PT','Arial',sans-serif;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-color: #F9F8F8;
+  h1,h2,h3,h4,h5,h6,p,ol,ul,li {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+img{
+  vertical-align: middle;
+  object-fit: cover;
+}
